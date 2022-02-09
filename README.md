@@ -1,2 +1,2 @@
 # unraid-templates
-Unraid templates
+Contains some template xmls for [Unraid](https://unraid.net/) setups.
