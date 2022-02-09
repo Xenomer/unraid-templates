@@ -47,10 +47,10 @@
     </Volume>
   </Data>
   <Labels/>
-  <Config Name="Token" Target="DISCORD_TOKEN" Default="" Mode="" Description="Container Variable: DISCORD_TOKEN" Type="Variable" Display="always" Required="false" Mask="false">ODI5Mjg1ODM5ODU0MzcwODM2.YG16nw.PZ7QJwTyHH4C1bh8RTOW_aoNvj8</Config>
-  <Config Name="Spotify client id" Target="SPOTIFY_CLIENT_ID" Default="" Mode="" Description="Container Variable: SPOTIFY_CLIENT_ID" Type="Variable" Display="always" Required="false" Mask="false">8464f2bfbb7d411f893cfe5205425409</Config>
-  <Config Name="Spotify client secret" Target="SPOTIFY_CLIENT_SECRET" Default="" Mode="" Description="Container Variable: SPOTIFY_CLIENT_SECRET" Type="Variable" Display="always" Required="false" Mask="false">9547365d9c424d4db7aa720d9ec0103d</Config>
-  <Config Name="Youtube API key" Target="YOUTUBE_API_KEY" Default="" Mode="" Description="Container Variable: YOUTUBE_API_KEY" Type="Variable" Display="always" Required="false" Mask="false">AIzaSyBi5f_t2Ma39kKy6fJKvTrcC_gwGCcc4ac</Config>
-  <Config Name="Data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/muse</Config>
+  <Config Name="Token" Target="DISCORD_TOKEN" Default="" Mode="" Description="Container Variable: DISCORD_TOKEN" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Spotify client id" Target="SPOTIFY_CLIENT_ID" Default="" Mode="" Description="Container Variable: SPOTIFY_CLIENT_ID" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Spotify client secret" Target="SPOTIFY_CLIENT_SECRET" Default="" Mode="" Description="Container Variable: SPOTIFY_CLIENT_SECRET" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Youtube API key" Target="YOUTUBE_API_KEY" Default="" Mode="" Description="Container Variable: YOUTUBE_API_KEY" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false"/>
   <Config Name="Debug logging" Target="DEBUG" Default="" Mode="" Description="set to * to enable debug logging in Muse" Type="Variable" Display="advanced" Required="false" Mask="false"/>
 </Container>
