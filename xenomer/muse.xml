@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>muse</Name>
+  <Repository>codetheweb/muse:latest</Repository>
+  <Registry>https://hub.docker.com/r/codetheweb/muse</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>
+    Muse is a highly-opinionated midwestern self-hosted Discord music bot that doesn't suck. It's made for small to medium-sized Discord servers/guilds (think about a group the size of you, your friends, and your friend's friends).
+  </Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/codetheweb/muse/master/.github/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1644450071</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>
+    Muse is a highly-opinionated midwestern self-hosted Discord music bot that doesn't suck. It's made for small to medium-sized Discord servers/guilds (think about a group the size of you, your friends, and your friend's friends).[br]
+    [b]Features:[/b][br]
+    &#x1F3A5; Livestreams[br]
+    &#x23E9; Seeking within a song/video[br]
+    &#x1F4BE; Local caching for better performance[br]
+    &#x1F4CB; No vote-to-skip - this is anarchy, not a democracy[br]
+    &#x2194;&#xFE0F; Autoconverts playlists / artists / albums / songs from Spotify[br]
+    &#x2197;&#xFE0F; Users can add custom shortcuts (aliases)[br]
+    1&#xFE0F;&#x20E3; Muse instance supports multiple guilds[br]
+    &#x270D;&#xFE0F; Written in TypeScript, easily extendable[br]
+    &#x2764;&#xFE0F; Loyal Packers fan
+  </Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/muse</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Labels/>
+  <Config Name="Token" Target="DISCORD_TOKEN" Default="" Mode="" Description="Container Variable: DISCORD_TOKEN" Type="Variable" Display="always" Required="false" Mask="false">ODI5Mjg1ODM5ODU0MzcwODM2.YG16nw.PZ7QJwTyHH4C1bh8RTOW_aoNvj8</Config>
+  <Config Name="Spotify client id" Target="SPOTIFY_CLIENT_ID" Default="" Mode="" Description="Container Variable: SPOTIFY_CLIENT_ID" Type="Variable" Display="always" Required="false" Mask="false">8464f2bfbb7d411f893cfe5205425409</Config>
+  <Config Name="Spotify client secret" Target="SPOTIFY_CLIENT_SECRET" Default="" Mode="" Description="Container Variable: SPOTIFY_CLIENT_SECRET" Type="Variable" Display="always" Required="false" Mask="false">9547365d9c424d4db7aa720d9ec0103d</Config>
+  <Config Name="Youtube API key" Target="YOUTUBE_API_KEY" Default="" Mode="" Description="Container Variable: YOUTUBE_API_KEY" Type="Variable" Display="always" Required="false" Mask="false">AIzaSyBi5f_t2Ma39kKy6fJKvTrcC_gwGCcc4ac</Config>
+  <Config Name="Data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/muse</Config>
+  <Config Name="Debug logging" Target="DEBUG" Default="" Mode="" Description="set to * to enable debug logging in Muse" Type="Variable" Display="advanced" Required="false" Mask="false"/>
+</Container>
